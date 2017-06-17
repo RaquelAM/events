@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <title>Alma Events</title>
+    <link href="img/favicon.png" rel="shortcut icon">
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61755260-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="overlay overlay-slidedown">
+      <button type="button" class="overlay-close overlay-close-btn">Close</button>
+      <nav>
+        <ul class="overlay-close">
+          <li><a onclick="autoScroll('cont_slider'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to home');" class="active">HOME</a></li>
+          <li><a onclick="autoScroll('about'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to about')">ABOUT</a></li>
+          <li><a onclick="autoScroll('wedding'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to weddings')">WEDDINGS <span>&</span> EVENTS</a></li>
+          <li><a onclick="autoScroll('testimonial'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to testimonials')">TESTIMONIALS</a></li>
+          <li><a onclick="autoScroll('services'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to services')">SERVICES</a></li>
+          <li><a onclick="autoScroll('allende'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to San Miguel de Allende')">SAN MIGUEL DE ALLENDE</a></li>
+          <li><a onclick="autoScroll('blog'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to blog')">BLOG</a></li>
+          <li><a onclick="autoScroll('galeria'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to gallery')">GALLERY</a></li>
+          <li><a onclick="autoScroll('contact'); ga('send', 'event', 'home-menu mobile', 'click', 'scroll to contact us')">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="cont_slider">
+      <div id="hedaer_mobile">
+        <img src="img/AlmaVictorEventsLogo.png" class="left">
+        <img src="img/hambuger.png" class="right" id="trigger-overlay">
+      </div>
+      <div id="slider_cover" class="bkgn_cover">
+        <img src="img/almavictorcortinilla-AV.png">
+      </div>
+      <div id="slider">
+        <div style="background: url(img/slider/Novios_espaldas_bajada.jpg)">
+          <div class="cont_slidertxt">
+            <div class="SliderText">
+              Your dream wedding awaits in San Miguel de Allende
+            </div>
+          </div>
+        </div>
+        <div style="background: url(img/slider/AV-Slide1.png)">
+        </div>
+        <div style="background: url(img/slider/Vista_1.jpg)">
+          <div class="cont_slidertxt">
+            <div class="SliderText">
+              Magical moments, in a magical city
+            </div>
+          </div>
+        </div>
+        <div style="background: url(img/slider/AV-Slides2.png)">
+        </div>
+      </div>
+      <header>
+        <div id="cont_header_home">
+        <img src="img/AlmaVictorEventsLogo.png">
+          <nav>
+            <a onclick="autoScroll('cont_slider'); ga('send', 'event', 'home-menu web', 'click', 'scroll to home')" class="active">HOME</a>
+            <a onclick="autoScroll('about'); ga('send', 'event', 'home-menu web', 'click', 'scroll to about')">ABOUT</a>
+            <a onclick="autoScroll('wedding'); ga('send', 'event', 'home-menu web', 'click', 'scroll to weddings')">WEDDINGS <span>&</span> EVENTS</a>
+            <a onclick="autoScroll('testimonial'); ga('send', 'event', 'home-menu web', 'click', 'scroll to testimonials')">TESTIMONIALS</a>
+            <a onclick="autoScroll('services'); ga('send', 'event', 'home-menu web', 'click', 'scroll to services')">SERVICES</a>
+            <a onclick="autoScroll('allende'); ga('send', 'event', 'home-menu web', 'click', 'scroll to San Miguel de Allende')">SAN MIGUEL DE ALLENDE</a>
+            <a onclick="autoScroll('blog'); ga('send', 'event', 'home-menu web', 'click', 'scroll to blog')">BLOG</a>
+            <a onclick="autoScroll('galeria'); ga('send', 'event', 'home-menu web', 'click', 'scroll to gallery')">GALLERY</a>
+            <a onclick="autoScroll('contact'); ga('send', 'event', 'home-menu web', 'click', 'scroll to contact us')">CONTACT US</a>
+          </nav>
+        </div>
+      </header>
+      <div id="down">
+        <img src="img/arrow.png" onclick="autoScroll('about'); ga('send', 'event', 'home', 'click', 'scroll down')">
+      </div>
+    </div>
+    <div id="about" class="section top">
+      <div id="about_img">
+      </div>
+      <div id="about_txt1">
+        Alma Victor Events is your premier destination wedding planner in the beautiful, historical city of  San Miguel de Allende, one of the world’s most prized destination wedding locations.
+      </div>
+      <div class="line mg-t-20">
+        <hr>
+        <img src="img/diamante.png">
+        <hr>
+      </div>
+      <a href="about.html">
+        <div class="btn_pink" onclick="ga('send', 'event', 'home-about', 'click', 'click to about');">
+          READ MORE
+        </div>
+      </a>
+    </div>
+    <div id="wedding" class="sec_pink">
+      <div class="section">
+        <div class="big_title">
+          <img src="img/weddings and events.png">
+        </div>
+        <div class="line">
+          <hr>
+          <img src="img/diamante.png">
+          <hr>
+        </div>
+        <div class="flex--WeddingInfo">
+          <span>Full service destination wedding and event planning at its best</span>
+          <p class="main_text">If you have been dreaming of a having a fairytale destination wedding or making your next large group event an extra-special destination event, then  look no further, San Miguel de Allende and Alma Victor Events are where you want to be.
+          </p>
+        </div>
+        <div class="WeddingsEvents">
+          <div class="WeddingsEvents--btn">
+            <div class="WeddingsEvents--btn-weddings active inline" onclick="ga('send', 'event', 'home-wedding', 'click', 'click to see Wedding information');">
+              Weddings
+            </div>
+            <div class="WeddingsEvents--btn-others inline" onclick="ga('send', 'event', 'home-wedding', 'click', 'click to see Other Events information');">
+              Other Events
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex--WeddingInfo">
+            <div class="flex--WeddingInfo--WeddingEvents">
+              <div class="wedding_cont">
+                <div class="img_wedding">
+                  <div style="background: url(img/Boda_Judia.jpg); background-position: bottom !important;">
+                  </div>
+                </div>
+                <div class="img_wedding">
+                  <div style="background: url(img/Novios_2[1].jpg)">
+                  </div>
+                </div>
+                <div class="img_wedding">
+                  <div style="background: url(img/Novios_LGBT_1.jpg)">
+                  </div>
+                </div>
+              </div>
+              <span>Tell us about your dream wedding, we will bring it to life. </span>
+              <p>
+                At Alama Victor Events we understand weddings.  We know that this is your special day.  Do you have your ideal wedding already pictured in your mind?  Or are you overwhelmed at the prospect and don’t know where to start?  Either way, we are here to help you figure it all out, so you can enjoy yourself and leave the details to us.
+              </p>
+              <p>
+                <b>The ceremony.</b>  We will work with you to create the perfect ceremony in accordance with your beliefs and preferences.  Whether you want a full Catholic mass, a ceremony from another religious tradition, an egalitarian wedding, a simple civil service, an alternative or non-religious ritual, we will help you make it happen.
+              </p>
+              <p>
+                <b>The Reception.</b>  How do you want to celebrate your union after the ceremony?  Are you looking for an elegant reception for a limited number of family and close friends? Or a huge party with multiple bands playing and people dancing till dawn?  From reserved to exuberant (and anything in between) we’ll make it happen! <b>This is your day, you choose!</b> 
+              </p>
+              <p>
+                Alma Victor Events will be with you every step of the way, ensuring that your wedding is a truly memorable and magical event for both you and your guests. 
+              </p>
+              <p class="lgbt">
+                <img src="img/rainbowicon .png" id="lgb"> Alma Victor events is an LGBT- friendly wedding planner. 
+              </p>
+            </div>
+            <div class="flex--WeddingInfo--OtherEvents">
+              <div class="wedding_cont">
+                <div class="img_wedding">
+                  <div style="background: url(img/Mimo_con_Invitados_1.jpg)">
+                  </div>
+                </div>
+                <div class="img_wedding">
+                  <div style="background: url(img/invitadoa_y_mesa_de_quesos_1.jpg)">
+                  </div>
+                </div>
+                <div class="img_wedding">
+                  <div style="background: url(img/gente_y_ambiente6[1].jpg)">
+                  </div>
+                </div>
+              </div>
+              <span>Weddings may be our specialty, but we don’t stop there.  </span>
+              <p>
+                Alma Victor Events can help you plan any and all of the events that you may want to include as part of the destination wedding experience such as a welcome cocktail party, a rehearsal dinner, tours and other group activities. And, of course, no San Miguel de Allende wedding would be complete without your very own Callejoneada through the streets of our wonderful city.
+              </p>
+              <p>
+                If a wedding is not what you are looking for, not to worry, San Miguel de Allende is a wonderful destination for every occasion: VIP event, charity event, milestone birthday, anniversary, or extra-special corporate events of all kinds.
+              </p>
+              <p>
+                Whatever the occasion, Alma Victor Events will deliver a beautiful experience you will not forget. From the location and the venue, to the menu, the decorations, floral design and entertainment, we will make it an event to remember! 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonial">
+      <div id="slider2">
+        <div style="background: url(img/sanmiguel-slide.png);">
+          <div class="msj_slider2">
+            <div>
+              <img src="img/testimonials.png">
+              "Quisiéramos agradecerte por todo. Juan y yo estamos muy felices por nuestra boda, al igual que nuestros familiares. Nunca lo hubiéramos logrado sin ti."
+              <br>
+              <span>Jayne Millard, England.</span>
+            </div>
+          </div>
+        </div>
+        <!-- <div style="background: url(img/);">
+        </div> -->
+      </div>
+    </div>
+    <div id="services" class="sec_pink">
+      <div class="section">
+        <div class="big_title">
+          <img src="img/Services.png">
+        </div>
+        <div class="line">
+          <hr>
+          <img src="img/diamante.png">
+          <hr>
+        </div>
+        <div id="services_info">
+          Alma Victor Events is a full-service wedding planner. From development to execution, we have every detail covered. In addition to event planning and coordination, we offer a selection of superb venues, exquisite floral design and venue decoration, mouthwatering menus prepared by professional chefs and kitchen staff, professional catering personnel and bar service, top-notch musical entertainment, as well as a recommended list of relevant service providers our clients, nothing is left out. 
+        </div>
+        <div class="options" id="slider_services">
+          <div class="cont_op slide" id="planning" onclick="ga('send', 'event', 'home-services', 'click', 'click to see Event planning & design');">
+            <div class="op" style="background: url(img/services/eventplanning_color.png)"></div>
+            <div class="op_hover" style="background: url(img/services/eventplanningandesign.png)">
+              <div>
+                Event planning<br>& design
+              </div>
+            </div>
+          </div>
+          <div class="cont_op slide" id="floral" onclick="ga('send', 'event', 'home-services', 'click', 'click to see Floral design');">
+            <div class="op" style="background: url(img/services/floraldesign_color.png)"></div>
+            <div class="op_hover" style="background: url(img/services/floraldesign.png)">
+              <div>
+                Floral<br>design
+              </div>
+            </div>
+          </div>
+          <div class="cont_op slide" id="menu" onclick="ga('send', 'event', 'home-services', 'click', 'click to see Menu planning');">
+            <div class="op" style="background: url(img/services/menuplanningcolor.png)"></div>
+            <div class="op_hover" style="background: url(img/services/menuplanning.png)">
+              <div>
+                Menu planning
+              </div>
+            </div>
+          </div>
+          <div class="cont_op slide" id="entre" onclick="ga('send', 'event', 'home-services', 'click', 'click to see Entretainment options');">
+            <div class="op" style="background: url(img/services/entertainmentoptions_color.png)"></div>
+            <div class="op_hover" style="background: url(img/services/entertainmentoptions.png)">
+              <div>
+                Entretainment<br>options
+              </div>
+            </div>
+          </div>
+          <div class="cont_op slide" id="properties" onclick="ga('send', 'event', 'home-services', 'click', 'click to see Properties and venues');">
+            <div class="op" style="background: url(img/services/propertiescolor.png)"></div>
+            <div class="op_hover" style="background: url(img/services/propertiesandvenues.png)">
+              <div>
+                Properties<br>and venues
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="arrowsSmall_S"></div>
+        <div id="con_info">
+          <div class="info_op hidden" id="menu_info">
+            <div class="txt_op">
+              <img src="img/services/int/services-menu.png">
+              <div>
+                <div class="title_op">
+                  <img src="img/diamante.png" class="diamante_title"> Menu planning <img src="img/diamante.png" class="diamante_title">
+                </div>
+                <div>
+                  Good menu planning and flawless execution are essential to a successful event. After all, what event would be complete without mouthwatering appetizers, delicious mains and luscious desserts? No one understands this better than Alma Caballero who, together with her chefs and staff, will design and prepare the perfect menu for your special event.
+                  <br>
+                  At Alma Victor Events, nothing but the best will do and our chefs prepare everything from scratch using original recipes. Whatever your food preferences and requirements are, our expert chefs and kitchen staff will create magic for your palate. On offer, a wide variety of authentic international cuisines as well as vegetarian, Vegan, Raw Food, and food sensitivity options.
+                  <br>
+                  Whether your dream event calls for the elegance of a formal sit-down, multi-course meal, the friendliness of family-style service, the fun and creativity of multiple food stations, or the ease of a fine buffet, you and your guests will enjoy amazing food and outstanding service.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info_op hidden" id="entre_info">
+            <div class="txt_op">
+              <img src="img/services/int/services-entertainmentoptions.png">
+              <div>
+                <div class="title_op">
+                  <img src="img/diamante.png" class="diamante_title"> Entertainment Options <img src="img/diamante.png" class="diamante_title">
+                </div>
+              Are you contemplating an evening of quiet elegance or dancing till dawn? Would you prefer rocking it out, meditating to exotic musical notes, grooving to live Latin jazz, or relaxing in a more classical atmosphere? Alma Victor Events understands the importance of setting the right musical tone for each event.  Based on your preferences, the size and nature of your event, we will recommend a number of excellent entertainment options such as fantastic live musicians, ensembles and bands, top DJ entertainment, and/or pre- recorded music services.  
+              </div>
+            </div>
+          </div>
+          <div class="info_op hidden" id="floral_info">
+            <div class="txt_op">
+              <img src="img/services/int/services-efloraldesign.png">
+              <div>
+                <div class="title_op">
+                  <img src="img/diamante.png" class="diamante_title"> Floral Design <img src="img/diamante.png" class="diamante_title">
+                </div>
+              From opulent and luxurious floral displays to discrete and reserved decorative floral touches floral design is one of our specialties!  Under the direction of Master Floral Designer Victor Hugo, our team will create the perfect, custom floral environment for your event.
+              </div>
+            </div>
+          </div>
+          <div class="info_op hidden" id="planning_info">
+            <div class="txt_op">
+              <img src="img/services/int/services-eventplanninganddesign.png">
+              <div>
+                <div class="title_op">
+                  <img src="img/diamante.png" class="diamante_title"> Event planning & design <img src="img/diamante.png" class="diamante_title">
+                </div>
+                Our team of professionals will work with you to plan your ideal event down to the very last detail.  Our combined experience will ensure that your wedding or special event is expertly coordinated and exquisitely designed for a seamless, beautiful experience.
+              </div>
+            </div>
+          </div>
+          <div class="info_op hidden" id="properties_info">
+            <div class="txt_op">
+              <img src="img/services/int/services-propertiesandvenues.png">
+              <div>
+                <div class="title_op">
+                  <img src="img/diamante.png" class="diamante_title"> Properties and Venues <img src="img/diamante.png" class="diamante_title">
+                </div>
+                San Miguel de Allende is the ideal location for your destination wedding or event.  Not only does it offer a charming atmosphere and fabulous restaurants, as well as world-class culture and entertainment, it also boasts a wide variety of excellent venues for events of all types and sizes.  You can plan a magical evening in the city’s historical center or in the elegant surroundings of a luxury property on the edge of town.  Maybe you would prefer a more bucolic experience at a traditional hacienda or a local vineyard in the beautiful countryside nearby?  Whatever you prefer and whatever the size of your party, you can count on Alma Victor Events to help you choose exactly the right venue to suit your needs.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="allende" class="section">
+      <div class="big_title">
+        <img src="img/sanmigueldeallende.png">
+      </div>
+      <div class="line">
+        <hr>
+        <img src="img/diamante.png">
+        <hr>
+      </div>
+      <div class="options" id="slider_allende">
+        <div class="cont_opSM" id="allende1"  onclick="ga('send', 'event', 'home-SMA', 'click', 'click to see Overview');">
+          <div class="op" style="background: url(img/SMA/overview_color.png)"></div>
+          <div class="op_hoverSM hiddenI" style="background: url(img/SMA/overview.png)">
+            <div>
+              Overview
+            </div>
+          </div>
+        </div>
+        <div class="cont_opSM" id="allende2" onclick="ga('send', 'event', 'home-SMA', 'click', 'click to see The Heart of Mexico');">
+          <div class="op" style="background: url(img/SMA/theheartofthecountry_color.png)"></div>
+          <div class="op_hoverSM" style="background: url(img/SMA/theheartofthecountry.png)">
+            <div>
+              The Heart of<br>Mexico
+            </div>
+          </div>
+        </div>
+        <div class="cont_opSM" id="allende3" onclick="ga('send', 'event', 'home-SMA', 'click', 'click to see Beyond the city limits');">
+          <div class="op" style="background: url(img/SMA/beyondthecitylimits_color.png)"></div>
+          <div class="op_hoverSM" style="background: url(img/SMA/beyondthecitylimits.png)">
+            <div>
+              Beyond the<br>city limits
+            </div>
+          </div>
+        </div>
+        <div class="cont_opSM" id="allende4" onclick="ga('send', 'event', 'home-SMA', 'click', 'click to see Lodging, Restaurants and Shopping');">
+          <div class="op" style="background: url(img/SMA/restaurants_color.png)"></div>
+          <div class="op_hoverSM" style="background: url(img/SMA/restaurants.png)">
+            <div>
+              Lodging,<br>Restaurants<br>and Shopping
+            </div>
+          </div>
+        </div>
+        <!-- <div class="cont_opSM" id="allende5">
+          <div class="op" style="background: url(img/artsandculture.png)"></div>
+          <div class="op_hoverSM" style="background: url(img/artsandculturebn.png)">
+            <div>
+              Arts & culture
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div id="arrowsSmall_A"></div>
+      <div id="con_infoSM">
+        <div class="info_opSM " id="allende1_info">
+          <div class="title_op">
+            <img src="img/diamante.png" class="diamante_title"> Overview <img src="img/diamante.png" class="diamante_title">
+          </div>
+          <div class="txt_op block">
+            Enchantment, romance and magic, San Miguel de Allende has it all. It should come as no surprise that this wonderful city is one of Mexico’s premier destination wedding locations.  <a href="SMA.html" class="link_more" onClick="SMAgoTo('allende1'); ga('send', 'event', 'home-SMA', 'click', 'click to read more about Overview');">Read more…</a>
+          </div>
+        </div>
+        <div class="info_opSM hidden" id="allende2_info">
+          <div class="title_op">
+            <img src="img/diamante.png" class="diamante_title"> The heart of Mexico <img src="img/diamante.png" class="diamante_title">
+          </div>
+          <div class="txt_op block">
+            The heart is closely associated with San Miguel de Allende, the reason for this is not just religious, although the “Sacred Heart” is certainly key aspect of the heart symbol in San Miguel. In addition to its religious overtones the heart has also denotes San Miguel’s central geographical location at the heart of Mexico and its historical location at the heart of independence.  <a href="SMA.html" class="link_more" onClick="SMAgoTo('allende2'); ga('send', 'event', 'home-SMA', 'click', 'click to read more about The heart of Mexico');">Read more…</a>
+          </div>
+        </div>
+        <div class="info_opSM hidden" id="allende3_info">
+          <div class="title_op">
+            <img src="img/diamante.png" class="diamante_title"> Beyond the city limits <img src="img/diamante.png" class="diamante_title">
+          </div>
+          <div class="txt_op block">
+            There is plenty to do for visitors to San Miguel de Allende interested in outdoor activities. Golf, horseback riding, all-terrain vehicle tours, mountain biking, hot springs, hot air balloon rides are easily accessible in and around the city.  <a href="SMA.html" class="link_more" onClick="SMAgoTo('allende3'); ga('send', 'event', 'home-SMA', 'click', 'click to read more about Beyond the city limits');">Read more…</a>
+          </div>
+        </div>
+        <div class="info_opSM hidden" id="allende4_info">
+          <div class="title_op">
+            <img src="img/diamante.png" class="diamante_title"> Lodging, Restaurants<br>and Shopping <img src="img/diamante.png" class="diamante_title">
+          </div>
+          <div class="txt_op block">
+            San Miguel de Allende boasts an incredible number of centrally and near center located hotels. There is something for everyone and every budget. Options run from high-end, luxury hotels, spas and short term rental properties, to top of the line boutique hotels and fantastic bed & breakfasts. There are even solutions for the more budget-minded traveler.  For those seeking a less urban hotel experience with easy access to town, there are some beautiful options on the outskirts of the city as well. <a href="SMA.html" class="link_more" onClick="SMAgoTo('allende4'); ga('send', 'event', 'home-SMA', 'click', 'click to read more about Lodging, Restaurants and Shopping');">Read more…</a>
+          </div>
+        </div>
+        <!-- <div class="info_opSM hidden" id="allende5_info">
+          <div class="title_op">
+            ♦ Arts & culture ♦
+          </div>
+          <div class="txt_op block">
+            San Miguel is probably best known to the outside world as an art center and has a thriving artist community. For more than 100 years artists have travelled to this high desert city to pursue their calling and hone their craft. Today , art and crafts students continue to flock to its fabled Instituto Allende and Bellas Artes schools to learn from each other and from renowned teachers. <a href="SMA.html" class="link_more" onClick="SMAgoTo('allende5');">Learn more…</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div id="blog" class="sec_pink">
+      <div class="section">
+        <div class="big_title">
+          <img src="img/blog.png">
+        </div>
+        <div class="line">
+          <hr>
+          <img src="img/diamante.png">
+          <hr>
+        </div>
+        <div class="articulo">
+          <div class="img_art">
+            <img src="img/Trinitate_dia_1.jpg">
+          </div>
+          <div class="padding-20">
+            <div class="titulo_art">
+              10 tips for planning the perfect destination wedding
+            </div>
+            <div class="txt_art">
+              So the time has come for you to start planning for that special day, the one that will mark the beginning of your lives together as a married couple.  What could be more romantic than a destination wedding?
+              <br>
+              But where do you start? How do you manage it so everyone has a good time and you don't get overwhelmed? Here are some handy tips for planning the perfect destination wedding.
+            </div>
+            <div class="more">
+              <a href="blog.html" onclick="ga('send', 'event', 'home-blog', 'click', 'click to blog 10 tips for planning the perfect destination wedding');">read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="articulo">
+          <div class="img_art">
+            <img src="img/recinto_1.jpg">
+          </div>
+          <div class="padding-20">
+            <div class="titulo_art">
+              Why choose San Miguel de Allende for your destination wedding
+            </div>
+            <div class="txt_art">
+              Long recognized world-wide, and in the United States in particular, as a culture and art center, San Miguel de Allende has been attracting art students and artists seeking inspiration and instruction since the late 1930’s.  It all started in 1938, when Peruvian artist Felipe Cossio del Pomar opened San Miguel’s first art school, the Escuela Universitaria de Bellas Artes in the town center.  It is still housed in the former convent where it was founded.
+            </div>
+            <div class="more">
+              <a href="blog2.html" onclick="ga('send', 'event', 'home-blog', 'click', 'click to blog Why choose San Miguel de Allende for your destination wedding');">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="articulo">
+          <div class="img_art">
+            <img src="img/Flores_decoracion de mesa_detalle2.jpg" style="position: relative; top: -225px;">
+          </div>
+          <div class="padding-20">
+            <div class="titulo_art">
+              My 6 Favorite Romantic Outtings in San Miguel de Allende by Victor Hugo
+            </div>
+            <div class="txt_art">
+              Suffice to say, that San Miguel de Allende is the perfect city for couples who are looking for the ideal destination to celebrate their wedding, spend their honeymoon, renew their vows, or just plain surround themselves with romance. 
+              <br>
+              As an incurable romantic myself, I am always looking for new and beautiful ways to experience the city I love. Today, I’ve decided to share 6 of my favorite romantic experiences in this enchanting, historical town. 
+            </div>
+            <div class="more">
+              <a href="blog3.html" onclick="ga('send', 'event', 'home-blog', 'click', 'click to blog My 6 Favorite Romantic Outtings in San Miguel de Allende by Victor Hugo');">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="galeria" class="section">
+      <div class="big_title">
+        <img src="img/galeria.png">
+      </div>
+      <div class="line">
+        <hr>
+        <img src="img/diamante.png">
+        <hr>
+      </div>
+      <div id="slider_galeria">
+        <div>
+          <img src="img/galeria/Flores_decoracion de mesa_detalle1.jpg">
+        </div>
+        <div>
+          <img src="img/galeria/Canapes_1.jpg">
+        </div>
+        <div>
+          <img src="img/galeria/Comida_Postre_2.jpg">
+        </div>
+        <div>
+          <img src="img/galeria/Comida_Postre_1.jpg">
+        </div>
+      </div>
+      <div id="arrows"></div>
+    </div>
+    <div id="contact" class="sec_pink">
+      <div class="section">
+        <div class="big_title">
+          <img src="img/contactus.png">
+        </div>
+        <div class="line">
+          <hr>
+          <img src="img/diamante.png">
+          <hr>
+        </div>
+        <div class="txt_form">
+          Thank you for your interest in Alma Victor Events!  Just fill out the form below and we will be in touch very soon.
+        </div>
+        <div id="form">
+          <div id="step1" class="cont_small ">
+            <p class="title_step"><span>Please select one</span></p>
+            <div class="two_options">
+              <input type="radio" name="subject" id="event">
+              <label for="event">I am planning an event</label>
+            </div>
+            <div class="two_options">
+              <input type="radio" name="subject" id="other">
+              <label for="other">Other subject</label>
+            </div>
+            <input type="radio" id="prueba">
+          </div>
+          <div id="step2" class="cont_small">
+            <p class="title_step">Type of event</p>
+            <div class="three_options">
+              <input type="radio" name="type" id="wedd" class="input2">
+              <label for="wedd">Wedding</label>
+            </div>
+            <div class="three_options">
+              <input type="radio" name="type" id="vows" class="input2">
+              <label for="vows">Renewal of vows</label>
+            </div>
+            <div class="three_options">
+              <input type="radio" name="type" id="otherType">
+              <label for="otherType">Other event</label>
+              <div>
+                <input type="text" name="type" placeholder="Pleas specify*" class="input2_txt" id="otherType_txt" disabled>
+                <span class="next">next</span>
+              </div>
+            </div>
+            <p class="back" onClick="back(step2,step1)">< Back</p>
+          </div>
+          <div id="step3" class="cont_big">
+            <p class="title_step">Estimated number of guests</p>
+            <div class="six_options">
+              <input type="radio" name="guests" id="less-50" class="input3">
+              <label for="less-50">Less than 50</label>
+            </div>
+            <div class="six_options">
+              <input type="radio" name="guests" id="50-100" class="input3">
+              <label for="50-100">50 - 100</label>
+            </div>
+            <div class="six_options">
+              <input type="radio" name="guests" id="100-250" class="input3">
+              <label for="100-250">100 - 250</label>
+            </div>
+            <div class="six_options">
+              <input type="radio" name="guests" id="250-400" class="input3">
+              <label for="250-400">250 - 400</label>
+            </div>
+            <div class="six_options">
+              <input type="radio" name="guests" id="More-400" class="input3">
+              <label for="More-400">More than 400</label>
+            </div>
+            <div class="six_options">
+              <input type="radio" name="guests" id="not_sure" class="input3">
+              <label for="not_sure">Not sure</label>
+            </div>
+            <p class="back" onClick="back(step3,step2)">< Back</p>
+          </div>
+          <div id="step4" class="cont_small">
+            <p class="title_step">Have you visited San Miguel de Allende before?</p>
+            <div class="w-50">
+              <div class="two_options">
+                <input type="radio" name="SMA" id="yes" class="input4">
+                <label for="yes">Yes</label>
+              </div>
+              <div class="two_options">
+                <input type="radio" name="SMA" id="no" class="input4">
+                <label for="no">No</label>
+              </div>
+            </div>
+            <p class="back" onClick="back(step4,step3)">< Back</p>
+          </div>
+          <div id="step5" class="cont_small">
+            <p class="title_step">Prefered date: Please let us knwo if you already have a date, month and/or year in mind.</p>
+            <div class="w-50">
+              <div class="three_options">
+                <select class="select day">
+                  <option>dd</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                  <option>05</option>
+                  <option>06</option>
+                  <option>07</option>
+                  <option>08</option>
+                  <option>09</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  <option>26</option>
+                  <option>27</option>
+                  <option>28</option>
+                  <option>29</option>
+                  <option>30</option>
+                  <option>31</option>
+                </select>
+              </div>
+              <div class="three_options">
+                <select class="select month">
+                  <option>--- ---</option>
+                  <option>Janaury</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+              </div>
+              <div class="three_options">
+                <select class="select year">
+                  <option>yyyy</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                  <option>2020</option>
+                  <option>2021</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                </select>
+              </div>
+              <div class="two_options" style="float: none; margin: auto;">
+                <input type="radio" name="date" id="notSure">
+                <label for="notSure">Not sure yet.</label>
+              </div>
+            </div>
+            <p class="back" onClick="back(step5,step4)">< Back</p>
+            <p class="nextStep" onClick="back(step5,step6)">Next ></p>
+          </div>
+          <div id="step6" class="cont_small">
+            <p class="title_step">Additional Event informaton</p>
+            <textarea id="add"></textarea>
+            <div class="mail">
+              <span>E-mail</span>
+              <input type="mail" id="mail_input">
+            </div>
+            <div class="btn_pink" id="send">
+              SEND
+            </div>
+            <p class="back back6" onClick="back(step6,step5)">< Back</p>
+          </div>
+          <div class="thanks">
+            Thank you..<br>We will contact you
+            <p class="back back6" onClick="back(step6,step5)">< Back</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <!-- <div id="social">
+        <img src="img/facebookicon.png">
+        <img src="img/twittericon.png">
+        <img src="img/instagramicon.png">
+      </div> -->
+      <nav>
+        <a onclick="autoScroll('cont_slider'); ga('send', 'event', 'home-footer', 'click', 'scroll to home');">HOME</a>
+        <a onclick="autoScroll('about'); ga('send', 'event', 'home-footer', 'click', 'scroll to about');">ABOUT</a>
+        <a onclick="autoScroll('wedding'); ga('send', 'event', 'home-footer', 'click', 'scroll to weddings');">WEDDINGS <span>&</span> EVENTS</a>
+        <a onclick="autoScroll('testimonial'); ga('send', 'event', 'home-footer', 'click', 'scroll to testimonials');">TESTIMONIALS</a>
+        <a onclick="autoScroll('services'); ga('send', 'event', 'home-footer', 'click', 'scroll to services');">SERVICES</a>
+        <a onclick="autoScroll('allende'); ga('send', 'event', 'home-footer', 'click', 'scroll to San Miguel de Allende');">SAN MIGUEL DE ALLENDE</a>
+        <a onclick="autoScroll('blog'); ga('send', 'event', 'home-footer', 'click', 'scroll to blog');">BLOG</a>
+        <a onclick="autoScroll('galeria'); ga('send', 'event', 'home-footer', 'click', 'scroll to gallery');">GALLERY</a>
+        <a onclick="autoScroll('contact'); ga('send', 'event', 'home-footer', 'click', 'scroll to contact us');">CONTACT US</a>
+      </nav>
+      <div id="info_footer">
+        2015 Alma Victor Events. San Miguel de Allende, Gto.
+        <br><br>
+        <a id="terms_link" onclick="ga('send', 'event', 'home-footer', 'click', 'Open Terms and conditions');">Terms and conditions</a>
+        <span>᛫</span>
+        <a id="policy_link" onclick="ga('send', 'event', 'home-footer', 'click', 'Open Privacy Policy');">Privacy Policy</a>
+      </div>
+      <div class="line">
+        <hr>
+        <img src="img/diamante.png">
+        <hr>
+      </div>
+    </div>
+
+    <div class="lightbox" id="galery">
+      <div class="close" style="top: 10vh;">X</div>
+      <img src="">
+      <a href="galeria.html" class="link_galery" onclick="ga('send', 'event', 'Pop Up gallery', 'click', 'click to the gallery');">Go to the gallery</a>
+    </div>
+    <div class="lightbox con_center" id="terms">
+      <div class="int_center">
+        <div class="close2">X</div>
+        <div class="info_lightbox">
+          <b>Terms and Conditions of use</b>
+          <br><br>
+          This site and its associated Blog were created for informational purposes only.  It provides information about our services and other relevant matters. It is our hope that all of our visitors will have an enjoyable experience that will be helpful to their research process.
+          <br><br>
+          By using this site, and browsing through its content, you are agreeing to our terms and conditions of use as outlined below.
+          <br><br>
+          By using this site you agree that,
+          <br><br>
+          <ul>
+            <li>You will use this site and its content for its intended purpose as stated above;</li>
+            <li>You have read and understood our privacy policy (link to privacy policy);</li>
+            <li>You WILL NOT seek to divert, make changes to, or otherwise negatively affect this website in any way;</li>
+            <li>You will use the contact forms only as means of relevant and genuine communication.</li>
+          </ul>
+          <br><br>
+          <b>Disclaimers</b>
+          <br><br>
+          This site and its associated Blog were created for informational purposes only.  Its content reflects the experience and opinion of the site owners and should therefore not be construed as a guarantee of any kind. While we hope that the information provided on this website is useful and helps our visitors with their research, nothing on this site is intended as, or should be substituted for, professional legal advice. Any conclusion drawn by visitors to our site is a product of their own research, as a result we always recommend that they be thorough in their research and perform due diligence in all cases.
+        </div>
+      </div>
+    </div>
+    <div class="lightbox con_center" id="policy">
+      <div class="int_center">
+        <div class="close2">X</div>
+        <div class="info_lightbox">
+          <b>Privacy Policy</b>
+          <br><br>
+          We value your privacy! We will never sell personal information you entrust us with. Your information will never be shared with 3rd parties except as required by law or in the course of normal business operations (this might include payment processors, shippers, or approved third-party vendors supplying services to your event etc.)
+          <br><br>
+          <b>What information do we collect?</b>
+          <br><br>
+          The only personal information we collect is the information you give to us voluntarily. This might include the name and contact information you provide on a contact form or if you sign up for our newsletter, for example. At the moment we do not process payments or collect payment information through our website.
+          <br><br>
+          <b>Compliance with the California Online Privacy Protection Act [CalOPPA]</b>
+          <br><br>
+          The first state law in the United Stated of America  to require commercial websites and online services to post a privacy policy, the California Online Privacy Protection Act (CalOPPA) went into effect in 2004. It was amended in 2013 to require new privacy disclosures regarding tracking of online visits.
+          <br><br>
+          CalOPPA applies to any person or entity that owns or operates a commercial website or online service that “collects and maintains personally identifiable information from a consumer residing in California who uses or visits” said website or online service. 
+          <br><br>
+          For more information please visit: the <a href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/#sthash.0FdRbT51.dpuf" target="_blank" class="link_pink" onclick="ga('send', 'event', 'home-footer', 'click', 'CFC’s website');">CFC’s website</a>.
+          <br><br>
+          <ul>
+            <li>As require by CalOPPA : </li>
+            <li>This site conspicuously displays a link to its privacy policy on its homepage distinguishable from surrounding text on the homepage.</li>
+            <li>Users can visit our site anonymously</li>
+            <li>Users will be notified of any privacy policy changes:
+              - On our Privacy Policy Page</li>
+            <li>Users are able to change their personal information: by unsubscribing to our mailing list using the link provided in any of our emails or contacting us using the form on this site and requesting changes to their information. </li>
+          </ul>
+          <br><br>
+          <b>Cookies:</b>
+          <br><br>
+          We do not currently use first party cookies but third-party cookies are commonly used by third party sites and social media and so may be present on this site. Cookies are typically used to identify user preferences and habits to enhance user experience. They collect non personal information relating to browsing patterns and user-activity. For more information about cookies please visit: <a href="http://www.allaboutcookies.org/cookies/what-information-in-cookie.html" target="_blank" class="link_pink" onclick="ga('send', 'event', 'home-footer', 'click', 'allaboutcookies.org');"> All About Cookies .org </a>
+          <br><br>
+          You can choose to reject cookies or otherwise set your cookie preferences in your browser settings. Changes may or may not affect your browsing experience on this or other sites. 
+          <br><br>
+          <b>Third-Party Websites:</b>
+          <br><br>
+          This site contains links to third-party sites for your convenience.  Those are sites completely independent of this site and we have no control over their content, privacy, or cookie policies. If you have any concerns we recommend you familiarize yourself with the policies governing those sites. Any remaining question you might have regarding those sites should be directed to them. 
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/demo1.js"></script>
+    <script src="js/js.cookie.js"></script>
+  </body>
+</html>
